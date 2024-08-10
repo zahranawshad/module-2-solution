@@ -24,7 +24,7 @@ h1 {
 
 .section {
     position: relative;
-    padding: 40px 20px 20px 20px; /* Adjusted top padding to avoid overlap */
+    padding: 40px 20px 20px 20px; 
     margin: 10px 0;
     border-radius: 8px;
     color: #000;
@@ -39,8 +39,8 @@ h1 {
     color: #fff;
     padding: 5px 10px;
     position: absolute;
-    top: 0; /* Aligned with top of the section */
-    right: 0; /* Aligned with right of the section */
+    top: 0; 
+    right: 0; 
     border: 1px solid #333;
     border-radius: 0;
     font-weight: bold;
@@ -61,7 +61,7 @@ h1 {
 
 @media (min-width: 992px) {
     .section {
-        width: calc(33.333% - 20px); /* Ensures even spacing */
+        width: calc(33.333% - 20px); 
         float: left;
         margin: 10px;
     }
@@ -73,7 +73,7 @@ h1 {
 
 @media (min-width: 768px) and (max-width: 991px) {
     .section {
-        width: calc(50% - 20px); /* Ensures even spacing */
+        width: calc(50% - 20px); 
         float: left;
         margin: 10px;
     }
@@ -85,7 +85,7 @@ h1 {
     }
 
     .section:nth-child(3) {
-        width: calc(100% - 20px); /* Full width on tablet */
+        width: calc(100% - 20px); 
         float: none;
         margin: 10px auto;
     }
@@ -93,7 +93,7 @@ h1 {
 
 @media (max-width: 767px) {
     .section {
-        width: calc(100% - 20px); /* Full width on mobile */
+        width: calc(100% - 20px);  
         float: none;
         margin: 10px auto;
     }
